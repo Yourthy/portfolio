@@ -13,6 +13,11 @@ const navBarItems = [
         title: 'Projects',
         url: '/projects',
         cName: 'nav-links'
+    },
+    {
+        title: 'Resume',
+        url: '/resume',
+        cName: 'nav-links'
     }
 ];
 export default navBarItems;

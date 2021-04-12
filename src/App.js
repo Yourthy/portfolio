@@ -1,5 +1,5 @@
 import './App.css';
-import { Home, AboutMe, Projects} from './components/pages/index';
+import { AboutMe, Projects, Resume, Contact} from './components/pages/index';
 import NavBar from './components/NavBar';
 import {
   BrowserRouter as Router,
@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Router>
       <NavBar/>
-      <Home/>
       <AboutMe/>
-      <Projects/>
+      <AboutMe/>
+      {/* <Projects/> */}
 
       </Router>
     </div>

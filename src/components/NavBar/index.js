@@ -21,7 +21,7 @@ const NavBar = () => {
     <nav className="navbar-container">
       <Link className="navbar-logo">
         <img src={Logo}></img>
-        <h3 className='navbar-logo-text'>Yourthc Web Dev</h3>
+        <h3 className='navbar-logo-text'>Christopher Yourth</h3>
       </Link>
       <div className="nav-menu">{navMap}</div>
     </nav>

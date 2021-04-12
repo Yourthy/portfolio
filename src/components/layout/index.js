@@ -1,8 +1,8 @@
 import React from 'react';
-const Layout = () =>{
-    <div>
-        this is the layout
-    </div>
+const Layout = (props) =>{
+   return(
+       <p></p>
+   )
 }
 
-export default { Layout } ;
+export default Layout ;
